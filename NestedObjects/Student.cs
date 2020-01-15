@@ -23,6 +23,9 @@ namespace NestedObjects
         /// Time is ignored.
         /// </summary>
         public DateTime? DateOfBirth { get; set; }
-
+        /// <summary>
+        /// The course a student is currently enrolled in.
+        /// </summary>
+        public List<Course> Schedule { get; set; }
     }
 }
